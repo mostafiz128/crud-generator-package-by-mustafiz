@@ -1,0 +1,19 @@
+{
+    "name": "mustafiz/crud-generator",
+    "description": "Simple CRUD Generator Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mustafiz\\CrudGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mostafiz310",
+            "email": "mostafiztopu@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
