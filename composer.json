@@ -15,5 +15,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mustafiz\\CrudGenerator\\CrudServiceProvider"
+            ]
+        }
+    }
 }
