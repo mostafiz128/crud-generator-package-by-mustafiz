@@ -3,11 +3,6 @@
     "description": "Simple CRUD Generator Package",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mustafiz\\CrudGenerator\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "mostafiz310",
@@ -16,6 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mustafiz\\CrudGenerator\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
